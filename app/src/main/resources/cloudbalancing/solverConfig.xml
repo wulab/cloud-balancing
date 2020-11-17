@@ -6,7 +6,8 @@
 
   <!-- Score configuration -->
   <scoreDirectorFactory>
-    <easyScoreCalculatorClass>cloudbalancing.ScoreCalculator</easyScoreCalculatorClass>
+    <!-- <easyScoreCalculatorClass>cloudbalancing.ScoreCalculator</easyScoreCalculatorClass> -->
+    <scoreDrl>cloudbalancing/cloudBalancingConstraints.drl</scoreDrl>
   </scoreDirectorFactory>
 
   <!-- Optimization algorithms configuration -->
